@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PillReminderStarting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="starter_description_1">"به نرم افزار شهروندی خوش آمدید"</string>
+    <string name="starter_description_2">"به راحتی مرکز درمانی و پزشک مورد نظر خود را پیدا کنید و از خدمات درمانی الکترونیک بهره مند شوید"</string>
+    <string name="starter_description_3">"با چند کلیک ساده زمان مصرف داروها را تنظیم کنید"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">یادآور ها</string>
+    <string name="title_dashboard">نسخه ها</string>
+    <string name="title_notifications">مراکز درمانی</string>
+    <string name="add_reminder">+ افزودن یادآور</string>
+    <string name="add">افزودن</string>
+    <string name="drug_name">نام دارو</string>
+    <string name="drug_type">نوع دارو</string>
+    <string name="first_day_take_medicine">روز اولین مصرف</string>
+    <string name="first_time_take_medicine">ساعت اولین مصرف</string>
+    <string name="number_of_drug">: تعداد</string>
+    <string name="period_of_drug">: بازه زمانی</string>
+    <string name="today">امروز</string>
+    <string name="now">همین الان</string>
+    <string name="reminder_list">لیست یادآورها :</string>
+    <string name="login">ورود</string>
+    <string name="do_not_sign_in">هنوز ثبت نام نکرده اید؟</string>
+    <string name="click_hear">کلیک کنید</string>
+    <string name="user_name">نام کاربری</string>
+    <string name="password">کلمه عبور</string>
+    <string name="set_a_reminder">یک یادآور تنظیم کنید</string>
+    <string name="select">انتخاب</string>
+    <string name="ok">خوبه</string>
+    <string name="what_type">چه دارویی؟</string>
+    <string name="pill">قرص</string>
+    <string name="capsule">کپسول</string>
+    <string name="draft">شربت</string>
+    <string name="injection">آمپول</string>
+    <string name="drug">دارو</string>
+    <string name="skip">رد شو</string>
+    <string name="active_reminder">یادآورهای فعال :</string>
+</resources>

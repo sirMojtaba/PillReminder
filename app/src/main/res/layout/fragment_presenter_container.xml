@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainBackgroundColor"
+        android:gravity="center"
+        tools:context=".view.ui.StarterActivity">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/starter_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/starter_view_pager"
+            android:layout_marginTop="24dp"
+            android:background="@color/mainBackgroundColor"
+            app:tabBackground="@drawable/pager_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp">
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/starter_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            />
+
+
+        <Button
+            android:id="@+id/skip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/yekan"
+            android:text="@string/skip"
+            android:textSize="25sp"
+            android:textColor="@color/withe"
+            android:background="@drawable/button_style_1"/>
+
+    </RelativeLayout>
+</layout>
